@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Allon</title>
+    <style>
+        body {
+            background-color: #1e1e1e; /* Dark gray background */
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            color: #f0f0f0; /* Light gray text color for readability */
+            margin: 0;
+            padding: 0;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+        }
+        nav ul li a {
+            color: #4a90e2; /* Soft blue color for links */
+            text-decoration: none;
+            margin-right: 15px;
+        }
+        .profile-img {
+            display: inline-block;
+            padding: 10px;
+            position: absolute;
+            top: 100px;
+            left: 220px;
+            border-radius: 50%;
+            overflow: hidden;
+            width: 400px;
+            height: 400px;
+        }
+        .profile-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        header {
+            margin-top: 50px;
+            margin-left: 700px;
+        }
+        header h1 {
+            color: #4a90e2; /* Matching header color */
+        }
+        header button {
+            background-color: #4a90e2;
+            color: #fff;
+            border: 2px solid #4a90e2;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-family: 'Arial', sans-serif;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+        a {
+            color: #4a90e2;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        section h2 {
+            color: #4a90e2;
+        }
+        section hr {
+            border: 1px solid #4a90e2;
+            background-color: #4a90e2;
+        }
+        table {
+            border: 2px solid #4a90e2;
+            border-collapse: collapse;
+            width: 100%;
+        }
+        table th, table td {
+            border: 1px solid #4a90e2;
+            padding: 8px;
+        }
+        footer p {
+            color: #4a90e2;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#profile">Profile</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="profile-img">
+        <img src="images/josh.jpg" alt="Profile Image">
+    </div>
+
+    <header id="home">
+        <h1>Hi, It's <span style="color: #4a90e2;">Allon</span></h1>
+        <p>I'm an aspiring <strong>Web Designer</strong></p>
+        <p>3rd-year student at Manuel S. Enverga University Foundation.<br> Currently taking Bachelor of Science in Information Technology.</p>
+        
+        <div>
+            <section id="contact">
+                <a href="https://www.linkedin.com/login">LinkedIn</a> |
+                <a href="https://github.com/">GitHub</a> |
+                <a href="https://twitter.com/">Twitter</a> |
+                <a href="https://instagram.com/">Instagram</a>
+            </section>
+        </div>
+        
+        <br>
+        <a href="yipee.html">
+            <button>Hire me</button>
+        </a>
+    </header>
+
+    <section id="profile">
+        <h2>Profile</h2>
+        <hr>
+        <p>Allon Aldrin J. Dorado</p>
+        <p>21 years old</p>
+        <p>Born on September 7, 2003</p>
+        <p>Male</p>
+        <p>5'6 feet</p>
+    </section>
+
+    <section id="services">
+        <h2>Services</h2>
+        <hr>
+        <p>Aerox</p>
+        <p>Mio Soul</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <hr>
+        <p>Programming language background: </p>
+        <ul>
+            <li>Python</li>
+            <li>C++</li>
+            <li>JavaScript</li>
+            <li>Java</li>
+            <li>Matulog nang nakamulat</li>
+            <li>Lumalaban pa rin kahit masakit na</li>
+        </ul>
+        <p>HTML/CSS</p>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>School Name</th>
+                    <th>Year</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Elementary</td>
+                    <td>Gateway Integrated School</td>
+                    <td>2009-2015</td>
+                </tr>
+                <tr>
+                    <td>Junior High</td>
+                    <td>Trece Martires National Highschool - Sariaya Institute</td>
+                    <td>2015-2019</td>
+                </tr>
+                <tr>
+                    <td>Senior High</td>
+                    <td>Colegio de Santo Cristo de Burgos</td>
+                    <td>2020-2022</td>
+                </tr>
+                <tr>
+                    <td>College</td>
+                    <td>Manuel S. Enverga University Foundation</td>
+                    <td>2022-Present</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+        <hr>
+        <p>School Activities and Projects:</p>
+        <ul>
+            <li><a href="http://localhost:8000/">Rent a Car Website</a></li>
+            <li><a href="/FINAL_PROJECT_CSPI/Final.html">Fake Store</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Jolo. All rights reserved.</p>
+    </footer>
+</body>
+</html>
